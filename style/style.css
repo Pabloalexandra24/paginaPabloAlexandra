@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url(/images/pexels-jplenio-1103970.jpg);
+    background-size: cover;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.inicio {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.titulo {
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid #79afe9;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+nav {
+    margin: 20px 0;
+    width: 100%;
+    background-color: #ffffff88;
+   border-radius: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    padding: 0px 0px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    border: 2px solid ;
+    background-color: #e7f3ff;
+    border-radius: 4px;
+    
+}
+
+.desarrollo {
+    max-width: 600px;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #729af0d3;
+    background-color: #fff;
+}
+
+footer {
+    background-color: #f8f8f886;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-top: 1px solid #ccc;
+}
+
+.footer-izquierda {
+    text-align: left;
+}
+
+.footer-derecha img {
+    max-width: 50px;
+    border: 2px solid #007BFF;
+    border-radius: 4px;
+}
+.titulo2 {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+}
+
+.titulo2 h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.contenido2 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.contenido2 p {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    text-align: center;
+}
+
+.pie-de-pagina {
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-de-pagina img {
+    max-width: 100px;
+}
